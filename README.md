@@ -5,3 +5,7 @@ Welcome to Jan's Tech Hub! I'm Jan, a passionate tech enthusiast driven by a lov
 
 ## Projects
 Explore a variety of projects ranging from web development to algorithmic challenges. Each project is a testament to my commitment to mastering the art of programming and contributing to the tech community.
+
+## Contact
+- Email: [janrepato@outlook.com](mailto:janrepato@outlook.com)
+- LinkedIn: [Jan Repato](https://www.linkedin.com/in/jan-repato-a43a96170/)
