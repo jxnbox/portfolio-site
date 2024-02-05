@@ -7,7 +7,10 @@ const Nav = () => {
     const pages = ["About", "Projects", "Contact"]
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" style={{
+            "backgroundColor" : "white",
+            "color" : "black"
+    }}>
             <Container>
                 <Toolbar disableGutters>
                     {pages.map(page => {
