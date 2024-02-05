@@ -10,18 +10,9 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Container className='main-container'>
-        <Row>
-          <Col>
-            <DisplayMainIntro />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <DisplayTechStack />
-          </Col>
-        </Row>
-      </Container>
+      <div className='main-container'>
+        <DisplayMainIntro />
+      </div>
     </div>
   );
 }

@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
+import DisplayTechStack from './DisplayTechStack';
+import selfieImg from '../pictures/photo_2024-02-05_18-22-26.jpg'
 
 const DisplayMainIntro = () => {
     return (
@@ -9,7 +11,9 @@ const DisplayMainIntro = () => {
             <Container>
                 <Row>
                     <Col className='selfie-div'>
-                        <div className='selfie-img'></div>
+                        <div className='selfie-img'>
+                            <img src={selfieImg} />
+                        </div>
                     </Col>
                     <Col>
                         <Stack gap={3}>
@@ -19,6 +23,7 @@ const DisplayMainIntro = () => {
                             in the fast-paced digital world. Whether writing code or staying updated on innovations, my tech journey is fueled by curiosity 
                             and a genuine love for bringing ideas to life through programming.
                             </p>
+                            <DisplayTechStack />
                         </Stack>
                     </Col>
                 </Row>

@@ -37,8 +37,14 @@
 
 .selfie-img {
   border: 5px solid #002E0E;
-  height: 40vh;
-  width: 50%;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+}
+
+.selfie-img img {
+  height: 100%;
+  width: 100%;
   border-radius: 100%;
 }
 
@@ -66,8 +72,8 @@
 }
 
 .techstack-icons {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   display: flex;
   justify-content: space-between;
 }
@@ -80,7 +86,8 @@
 }
 
 .main-container {
-  padding-left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   margin: 50px;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
