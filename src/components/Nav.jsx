@@ -1,7 +1,7 @@
 import Toolbar from '@mui/material/Toolbar';
 import AppBar from '@mui/material/AppBar';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
 const Nav = () => {
     const pages = ["About", "Projects", "Contact"]
@@ -12,23 +12,15 @@ const Nav = () => {
             "color" : "black"
     }}>
             <Container>
-                <Toolbar disableGutters>
+                <Toolbar className='nav-bar' disableGutters>
                     {pages.map(page => {
-                        return <Typography
-                        variant='h6'
-                        noWrap
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
+                        return <Button
+                        variant='h7'
+                        key={page}
+                        sx={{ my: 1, color: 'black', display: 'block' }}
                         >
                         {page}
-                        </Typography>
+                        </Button>
                     })}
                 </Toolbar>
             </Container>

@@ -30,6 +30,50 @@
 
 .bio-section {
   text-align: left;
+  font-size: smaller;
+}
+
+.selfie-img {
+  border: 1px solid black;
+  height: 40vh;
+  width: 50%;
+  border-radius: 100%;
+}
+
+.selfie-div {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-div {
+  margin-top: 10vh;
+  padding-right: 4%;
+}
+
+.nav-bar {
+  justify-content: end;
+}
+
+.techstack-div {
+  margin-top: 10%;
+}
+
+.techstack-icons {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-container {
+  padding-left: 10%;
+  margin: 50px;
 }
 
 @keyframes App-logo-spin {
