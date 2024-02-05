@@ -13,7 +13,7 @@ const DisplayMainIntro = () => {
                     </Col>
                     <Col>
                         <Stack gap={3}>
-                            <h1>&lt;Frontend Developer /&gt; 💻</h1>
+                            <h1 className='bio-section-h1'>&lt;Fr<span className='h1-title-span'>o</span>ntend Devel<span className='h1-title-span'>o</span>per <span className='h1-title-span'>/</span>&gt; 💻</h1>
                             <p className='bio-section'>
                             Hello, I'm Jan, a tech enthusiast passionate about programming. I love exploring new tech trends, learning, and tackling challenges 
                             in the fast-paced digital world. Whether writing code or staying updated on innovations, my tech journey is fueled by curiosity 
