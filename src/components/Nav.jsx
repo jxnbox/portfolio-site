@@ -9,20 +9,27 @@ const Nav = () => {
     return (
         <AppBar position="static" style={{
             "backgroundColor" : "white",
-            "color" : "black"
-    }}>
+            "color" : "white"
+            }}>
             <Container>
-                <Toolbar className='nav-bar' disableGutters>
+                <nav className='nav-bar' >
                     {pages.map(page => {
                         return <Button
                         variant='h7'
                         key={page}
-                        sx={{ my: 1, color: 'black', display: 'block' }}
+                        sx={{ 
+                            my: 1, 
+                            color: 'black', 
+                            display: 'block',
+                            paddingTop : "0", 
+                            paddingBottom: "0", 
+                            fontSize : "11px"
+                        }}
                         >
                         {page}
                         </Button>
                     })}
-                </Toolbar>
+                </nav>
             </Container>
         </AppBar>
     );
