@@ -23,7 +23,7 @@ const Nav = () => {
                             display: 'block',
                             paddingTop : "0", 
                             paddingBottom: "0", 
-                            fontSize : "11px"
+                            fontSize : "15px"
                         }}
                         >
                         {page}
